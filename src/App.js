@@ -9,7 +9,6 @@ function App() {
   const [isActive, setActive] = useState("false");
   const todoAppHandler = () => {
     setActive(!isActive);
-    console.log(isActive);
   };
   return (
     <Router>
